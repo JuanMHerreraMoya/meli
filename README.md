@@ -57,6 +57,9 @@ Crea o actualiza un vendedor.
 * **Respuesta**: Retorna `200 OK` si la operación es exitosa.
 
 ---
+-----------------------------
+#### Covertura total de proyecto
+![Covertura](fotos/covertura.png)
 
 ### 5. Frontend
 
@@ -73,10 +76,6 @@ El frontend de la aplicación fue desarrollado con React y Vite. Para la comunic
 
 ---------------------------------------------------------------------
 #### Requisitos previos
-
------------------------------
-##Covertura
-![Covertura](fotos/covertura.png)
 
 Asegúrate de tener instalados los siguientes programas:
 * **Java 21 o superior**
