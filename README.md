@@ -3,7 +3,8 @@ Este proyecto es una aplicación web que emula las funcionalidades básicas de u
 ---
 
 ### 1. Arquitectura del Backend: Hexagonal
-
+**Página de Inicio**
+![Hexagoal](fotos/arqui_3.png)
 El backend está diseñado con una arquitectura hexagonal, que separa la lógica de negocio central de las dependencias externas como la base de datos y la interfaz de usuario.
 
 * **Dominio (`domain.model`)**: Contiene los modelos de negocio (`Item`, `ItemComplete`, `Seller`).
@@ -24,7 +25,7 @@ El backend está diseñado con una arquitectura hexagonal, que separa la lógica
 * Se utilizan excepciones personalizadas como `ItemNotFoundException`.
 
 ---
-
+![Frlujo 1](fotos/arqui_1.png)
 ### 4. Endpoints de la API REST
 
 A continuación se detallan los controladores y sus endpoints, con ejemplos de código:
@@ -41,7 +42,7 @@ Crea o actualiza un ítem.
 `GET /api/item`
 
 Retorna una lista de todos los ítems.
-
+![Frlujo 2](fotos/arqui_2.png)
 `GET /api/item/{id}`
 
 Busca un ítem por su ID. Incrementa el contador de vistas y, si no lo encuentra, lanza una `ItemNotFoundException`.
@@ -97,3 +98,4 @@ Asegúrate de tener instalados los siguientes programas:
 --------------------------
 # Link del front
 https://github.com/JuanMHerreraMoya/meli-front
+
