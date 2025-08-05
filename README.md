@@ -1,3 +1,7 @@
+Este proyecto es una aplicación web que emula las funcionalidades básicas de una plataforma de comercio electrónico. El backend está construido con Spring Boot y sigue una arquitectura hexagonal, mientras que el frontend utiliza React y Vite.
+
+---
+
 ### 1. Arquitectura del Backend: Hexagonal
 
 El backend está diseñado con una arquitectura hexagonal, que separa la lógica de negocio central de las dependencias externas como la base de datos y la interfaz de usuario.
@@ -58,5 +62,9 @@ Crea o actualiza un vendedor.
 El frontend de la aplicación fue desarrollado con React y Vite. Para la comunicación con el backend, se utiliza la librería Axios.
 
 #### Vistas Principales:
-* **Página de Inicio**: Muestra una barra de búsqueda, un banner promocional ("Compra en Mercado Libre" y "Envíos y Devoluciones GRATIS") y una sección de "Productos destacados".
-* **Página de Detalle del Producto**: Muestra una imagen más grande del producto, su precio, stock y rating. También incluye opciones para "Comprar ahora" y "Agregar al carrito", y pestañas con "Descripción", "Especificaciones" y "Opiniones".
+
+**Página de Inicio**
+![Página de Inicio](uploaded:image_b96aa7.jpg-4894e4b1-0176-4051-9562-37d7d2ca3057)
+
+**Página de Detalle del Producto**
+![Página de Detalle del Producto](uploaded:image_b96ae5.png-bf224277-f9e6-4cb6-ae26-64969c1495ce)
