@@ -25,7 +25,7 @@ El backend está diseñado con una arquitectura hexagonal, que separa la lógica
 * Se utilizan excepciones personalizadas como `ItemNotFoundException`.
 
 ---
-![Frlujo 1](fotos/arqui_1.png)
+![Frlujo 1](fotos/arqui_1-1.png)
 ### 4. Endpoints de la API REST
 
 A continuación se detallan los controladores y sus endpoints, con ejemplos de código:
@@ -42,7 +42,7 @@ Crea o actualiza un ítem.
 `GET /api/item`
 
 Retorna una lista de todos los ítems.
-![Frlujo 2](fotos/arqui_2.png)
+![Frlujo 2](fotos/arqui_2-2.png)
 `GET /api/item/{id}`
 
 Busca un ítem por su ID. Incrementa el contador de vistas y, si no lo encuentra, lanza una `ItemNotFoundException`.
@@ -73,6 +73,10 @@ El frontend de la aplicación fue desarrollado con React y Vite. Para la comunic
 
 ---------------------------------------------------------------------
 #### Requisitos previos
+
+-----------------------------
+##Covertura
+![Covertura](fotos/covertura.png)
 
 Asegúrate de tener instalados los siguientes programas:
 * **Java 21 o superior**
