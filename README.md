@@ -64,7 +64,7 @@ El frontend de la aplicación fue desarrollado con React y Vite. Para la comunic
 #### Vistas Principales:
 
 **Página de Inicio**
-![Página de Inicio](uploaded:image_b96aa7.jpg-4894e4b1-0176-4051-9562-37d7d2ca3057)
+![Página de Inicio](fotos/home.pnf)
 
 **Página de Detalle del Producto**
-![Página de Detalle del Producto](uploaded:image_b96ae5.png-bf224277-f9e6-4cb6-ae26-64969c1495ce)
+![Página de Detalle del Producto](fotos/producto.png)
