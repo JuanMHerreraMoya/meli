@@ -68,3 +68,28 @@ El frontend de la aplicación fue desarrollado con React y Vite. Para la comunic
 
 **Página de Detalle del Producto**
 ![Página de Detalle del Producto](fotos/producto.png)
+
+
+---------------------------------------------------------------------
+#### Requisitos previos
+
+Asegúrate de tener instalados los siguientes programas:
+* **Java 21 o superior**
+* **Maven**
+* Un editor de código como IntelliJ IDEA, VS Code o similar.
+
+#### 1. Iniciar el Backend
+
+1.  Abre una terminal en el directorio raíz del proyecto (`/your-project-folder`).
+2.  Navega a la carpeta del backend.
+3.  Ejecuta el comando de Maven para compilar y ejecutar la aplicación:
+    ```bash
+    ./mvnw spring-boot:run
+    ```
+    *Si estás en Windows, es posible que debas usar `mvnw.cmd spring-boot:run`.*
+
+4.  Verifica que el backend se haya iniciado correctamente. Deberías ver un mensaje en la terminal similar a:
+    ```
+    Started MeliApplication in ...
+    ```
+    El backend se ejecutará por defecto en el puerto `8080`.
