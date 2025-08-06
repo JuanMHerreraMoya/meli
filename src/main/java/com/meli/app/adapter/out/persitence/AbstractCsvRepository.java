@@ -1,13 +1,13 @@
 package com.meli.app.adapter.out.persitence;
 
 import com.opencsv.CSVWriter;
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-@Controller
+@Component
 public abstract class AbstractCsvRepository {
     protected void initializerFile(String path, String[] headers) {
         File file = new File(path);
